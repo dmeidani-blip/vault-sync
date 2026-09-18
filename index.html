@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DSARM Vault Sync</title>
+<style>body{font-family:system-ui,-apple-system,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1.25rem;line-height:1.6;color:#1a1a1a}a{color:#0645ad}</style>
+</head><body>
+<h1>DSARM Vault Sync</h1>
+<p>DSARM Vault Sync is a private, single-user configuration of the open-source
+Obsidian plugin <em>Google Drive Vault Sync</em>. It synchronises one personal
+Obsidian note vault between the owner's own devices using the owner's own
+Google Drive account.</p>
+<h2>What it does</h2>
+<ul>
+<li>Uploads note files from a local Obsidian vault to a dedicated folder in the owner's Google Drive.</li>
+<li>Downloads changes made on other devices belonging to the same owner.</li>
+<li>Keeps a manifest file so it can tell which files changed between runs.</li>
+</ul>
+<h2>Access requested</h2>
+<p>The application requests only the
+<code>https://www.googleapis.com/auth/drive.file</code> scope, which limits it to
+files and folders it creates itself. It cannot see or read any other content in
+the Google Drive account.</p>
+<h2>Who it is for</h2>
+<p>This application is not offered to the public. It has one user, the account
+owner, and exists solely to synchronise that person's own notes between their
+own devices.</p>
+<p><a href="privacy.html">Privacy policy</a> &middot; <a href="terms.html">Terms of service</a></p>
+</body></html>
